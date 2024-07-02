@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Future/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Future/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HTTPKerberos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HTTPKerberos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaConcurrent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaConcurrent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaMem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaMem/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jetty-JAX-RS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jetty-JAX-RS/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ldap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ldap/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyHadoop/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyHadoop/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyHadoop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyHadoop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mavenPlugins/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mavenPlugins/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/music/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/music/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstd/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zstd/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

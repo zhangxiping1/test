@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/MyHadoop/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/HTTPKerberos/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/zstd/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/javaReflection/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="NIONetty" />
+        <module name="JavaException" />
+        <module name="JavaConcurrent" />
+        <module name="ThreadPool" />
+        <module name="JavaSocket" />
+        <module name="javaReflection" />
+        <module name="JavaMem" />
+        <module name="Mock" />
+        <module name="Arthas" />
+        <module name="mavenPlugins" />
+        <module name="zstd" />
+        <module name="Javahprof" />
+        <module name="LinkedBlockingQueuelearn" />
+        <module name="JavaCollection" />
+        <module name="music" />
+        <module name="JavaSecurity" />
+        <module name="common" />
+        <module name="VolatileTest" />
+        <module name="FileLock" />
+        <module name="JavaSoket" />
+        <module name="annotation" />
+        <module name="ReentrantLock" />
+        <module name="Netty5Hellow" />
+        <module name="Ldap" />
+        <module name="IP" />
+        <module name="AtomicReference" />
+        <module name="NettyHello" />
+        <module name="Jeety" />
+        <module name="AtomicBoolean" />
+        <module name="Hive" />
+        <module name="OIO" />
+        <module name="NIO" />
+        <module name="Log4j" />
+        <module name="Future" />
+        <module name="Jetty-JAX-RS" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HTTPKerberos" target="1.8" />
+      <module name="JavaSoket" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

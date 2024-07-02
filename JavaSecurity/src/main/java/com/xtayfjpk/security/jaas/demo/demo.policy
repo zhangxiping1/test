@@ -1,0 +1,8 @@
+grant  principal * * {
+    permission java.util.PropertyPermission "java.home", "read";
+};
+grant {
+    permission javax.security.auth.AuthPermission "createLoginContext.demo";
+    permission javax.security.auth.AuthPermission "modifyPrincipals";
+    permission javax.security.auth.AuthPermission "doAsPrivileged";
+};

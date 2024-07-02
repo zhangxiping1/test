@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="resources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/music/src/main/resources/jna-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/music/src/main/resources/libjitsi-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/music/src/main/resources/j-ogg-all-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/music/src/main/resources/jna-platform-4.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

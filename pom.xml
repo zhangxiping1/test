@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <groupId>org.example</groupId>
+    <artifactId>JavaLearn</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <repositories>
+        <!--        <repository>-->
+        <!--            <id>public</id>-->
+        <!--            <name>local private nexus</name>-->
+        <!--&lt;!&ndash;            <url>https://repo1.maven.org/maven2/</url>&ndash;&gt;-->
+        <!--            <url>https://repo1.maven.org/maven2/</url>-->
+        <!--            <releases>-->
+        <!--                <enabled>true</enabled>-->
+        <!--            </releases>-->
+        <!--        </repository>-->
+
+                <repository>
+                    <id>aliyun</id>
+                    <name>aliyun nexus</name>
+                    <!--            <url>https://repo1.maven.org/maven2/</url>-->
+                    <url>https://maven.aliyun.com/repository/central</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </repository>
+
+        <!--        <repository>-->
+        <!--            <id>neteease</id>-->
+        <!--            <name>neteease nexus</name>-->
+        <!--            &lt;!&ndash;            <url>https://repo1.maven.org/maven2/</url>&ndash;&gt;-->
+        <!--            <url>http://mvn.hz.netease.com/artifactory/maven2-cache</url>-->
+        <!--            <releases>-->
+        <!--                <enabled>true</enabled>-->
+        <!--            </releases>-->
+        <!--        </repository>-->
+
+<!--        <repository>-->
+<!--            <id>neteease</id>-->
+<!--            <name>neteease nexus</name>-->
+<!--                        <url>https://repo1.maven.org/maven2/</url>-->
+<!--            <url>http://mvn.hz.netease.com/artifactory/libs-releases</url>-->
+<!--            <releases>-->
+<!--                <enabled>true</enabled>-->
+<!--            </releases>-->
+<!--        </repository>-->
+    </repositories>
+    <modules>
+        <module>OIO</module>
+        <module>NIO</module>
+        <module>NettyHello</module>
+        <module>Future</module>
+        <module>LinkedBlockingQueuelearn</module>
+        <module>VolatileTest</module>
+        <module>NIONetty</module>
+        <module>Netty5Hellow</module>
+        <module>AtomicBoolean</module>
+        <module>ThreadPool</module>
+        <module>annotation</module>
+        <module>IP</module>
+        <module>ReentrantLock</module>
+        <module>AtomicReference</module>
+        <module>JavaSecurity</module>
+        <module>Mock</module>
+        <module>Log4j</module>
+        <module>JavaSocket</module>
+        <module>FileLock</module>
+        <module>JavaException</module>
+        <module>Hive</module>
+        <module>JavaCollection</module>
+        <module>Jeety</module>
+        <module>Arthas</module>
+        <module>Javahprof</module>
+        <module>music</module>
+        <module>MyHadoop</module>
+        <module>zstd</module>
+        <module>Ldap</module>
+        <module>Jetty-JAX-RS</module>
+        <module>JavaMem</module>
+        <module>javaReflection</module>
+        <module>JavaConcurrent</module>
+
+    </modules>
+
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
